@@ -1,0 +1,9 @@
+---
+- name: Configure k8s workers
+  hosts: all
+  remote_user: ubuntu
+
+  tasks:
+    - name: Run install script
+      ansible.builtin.script:
+        cmd: scripts/kubernetes_install.sh

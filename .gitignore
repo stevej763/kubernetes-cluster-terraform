@@ -1,0 +1,4 @@
+.DS_STORE
+terraform/terraform.pem
+.terraform/
+terraform/.terraform.lock.hcl
